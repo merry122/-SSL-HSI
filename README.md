@@ -99,9 +99,4 @@ Console output includes:
 - Hyperparameters (epochs, batch size, mask ratio) are defined in function arguments in source files.
 - The pipeline currently runs on default PyTorch device behavior (CPU unless you move tensors/models to CUDA manually).
 
-## Possible Next Improvements
 
-- Add `requirements.txt` for reproducible environment setup.
-- Add CLI arguments for epochs, dataset path, and method selection.
-- Add random seed control and repeated runs for more reliable comparisons.
-- Add model checkpointing and export of numeric results to CSV/JSON.
